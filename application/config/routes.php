@@ -40,12 +40,8 @@
 
 $route['default_controller'] = "docs";
 $route['404_override'] = '';
-$route['benefits/benefit-finder'] = "mockup/page";
-//$route['benefits/saved'] = "mockup/page/saved";
-$route['benefits/benefit-finder/(:any)'] = "mockup/page/$1";
 
-
-$route['save'] = 'mockup/save_tasks';
+$route['save'] = 'docs/save_tasks';
 
 $route['login'] = "auth/session/mygov";
 $route['logout'] = "auth/logout";

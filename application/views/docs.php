@@ -1,8 +1,6 @@
+<?php include 'include/header-meta.php'; ?>
 <?php include 'include/header.php';?>
-<?php  if(!empty($step)) include 'include/header-meta.php'; ?>
 
-
-Docs and overview
-
+<h2> Docs and overview </h2>
 
 <?php include 'include/footer.php';?>
